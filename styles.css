@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.clr1 {
+	background-color: #e04d4d !important;
+	color: #e04d4d !important;
+}
+.clr2 {
+	background-color: #e0904d !important;
+	color: #e0904d !important;
+}
+.clr3 {
+	background-color: #e0a64d !important;
+	color: #e0a64d !important;
+}
+.clr4 {
+	background-color: #e0d34d !important;
+	color: #e0d34d !important;
+}
+.clr5 {
+	background-color: #ffe800 !important;
+	color: #ffe800 !important;
+}
+.clr6 {
+	background-color: #ffaa00 !important;
+	color: #ffaa00 !important;
+}
+.clr7 {
+	background-color: #ccfd00 !important;
+	color: #ccfd00 !important;
+}
+.clr8 {
+	background-color: #5fd646 !important;
+	color: #5fd646 !important;
+}
+.clr9 {
+	background-color: #6a97ff !important;
+	color: #6a97ff !important;
+}
+.clr10 {
+	background-color: #004af5 !important;
+	color: #004af5 !important;
+}
+.clr11 {
+	background-color: #7d00f5 !important;
+	color: #7d00f5 !important;
+}
+.clr12 {
+	background-color: #d93a94 !important;
+	color: #d93a94 !important;
+}
+
+html {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	min-height: 100vh;
+	background-color: #60e45b;
+
+	display: grid;
+	place-items: center;
+
+	color: #ffffff;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	text-align: center;
+
+  transition: 0.3s ease-in-out;
+}
+
+.quote-container {
+	width: auto;
+	max-width: 900px;
+	padding: 20px 30px;
+	border-radius: 10px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 10px 10px 2px rgba(43, 43, 43, 0.2);
+	background: blur(80);
+  border: 5px solid #191919;
+}
+
+.quote-text {
+	font-size: 2.75rem;
+}
+.long-quote {
+	font-size: 2rem;
+}
+.fa-quote-left {
+	font-size: 4rem;
+}
+
+.quote-author {
+	margin-top: 15px;
+	font-size: 2rem;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.button-container {
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+
+button {
+	cursor: pointer;
+	font-size: 1.2rem;
+	height: 2.5rem;
+	border-radius: 10px;
+	color: inherit;
+	background: white;
+	outline: none;
+	padding: 0.5rem 1.8rem;
+	box-shadow: 0 0.3rem rgba(14, 14, 14, 0.9);
+  border: 2px solid #191919;
+}
+button:hover {
+	filter: brightness(110%);
+}
+button:active {
+	transform: translate(0, 0.3rem);
+	box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65);
+}
+
+.twitter-button:hover {
+	color: #38a1f3;
+}
+.fa-twitter {
+	font-size: 1.5rem;
+}
+
+/* Media query */
+@media screen and (max-width: 1000px) {
+	.quote-container {
+		margin: auto 10px;
+	}
+	.quote-text {
+		font-size: 2.5rem;
+	}
+}
